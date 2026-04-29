@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masashi & Dana Wedding - Sep. 26, 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600;700&family=Playfair+Display:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- ヘッダー・カバーセクション -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="couple-names">
+                <h1 class="groom-name">Masashi</h1>
+                <div class="ampersand">&</div>
+                <h1 class="bride-name">Dana</h1>
+            </div>
+            <div class="wedding-date">
+                <p class="date-text">September 26, 2026</p>
+                <p class="venue-text">明治神宮 × 明治記念館<br>Meiji Shrine ×　Meiji Memorial Hall</p>
+            </div>
+            <div class="countdown-container">
+                <div id="countdown" class="countdown-display">
+                    <div class="countdown-item">
+                        <span id="days">000</span>
+                        <label>Days</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <label>Hours</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <label>Minutes</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <label>Seconds</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- ナビゲーション -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#venue">Venue</a></li>
+            <li><a href="#details">Note</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+    </nav>
+    <!-- 手紙風メッセージセクション --> 
+    <section class="letter-section"> 
+        <div class="container">
+            <div class="letter-container">
+                <div class="letter-header">
+                    <div class="letter-seal"></div>
+                </div>
+                <div class="letter-content"> 
+                    <p class="letter-text">謹啓　〇〇の候　皆様には ますますご清栄のことと お慶び申し上げます</p> 
+                    <p class="letter-text">さて 私共 かねて婚約中でございましたが</p>
+                    <p class="letter-text">このたび結婚式を挙げることになりました</p> 
+                    <p class="letter-text">つきましては ささやかな披露をいたしたいと存じますので</p> 
+                    <p class="letter-text">何卒ご出席くださいますよう ご案内申し上げます<span style="float: right;">敬具</span></p>
+                </div> 
+                <div class="letter-footer"> 
+                    <div class="letter-decoration"> </div> 
+                </div>
+            </div>
+        </div> 
+    </section> 
+    <!-- お二人についてセクション -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="couple-profiles">
+                <div class="profile groom-profile">
+                    <div class="profile-image">
+                        <img src="images/masashi.jpg" alt="新郎 Masashi" />
+                    </div>
+                    <div class="profile-info">
+                        <h3>Groom</h3>
+                        <h4>Masashi</h4>
+                        <p class="profile-description">
+                            1996年7月生 このサイトはAIで作成しました。すごいですね。
+                        </p>
+                    </div>
+                </div>
+                <div class="profile bride-profile">
+                    <div class="profile-image">
+                        <img src="images/dana.jpg" alt="新婦 Dana" />
+                    </div>
+                    <div class="profile-info">
+                        <h3>Bride</h3>
+                        <h4>Dana</h4>
+                        <p class="profile-description">
+                            1997年5月生 〇〇
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 思い出の写真ギャラリー -->
+            <div class="memory-gallery">
+                <h3>Memories</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600&h=400&fit=crop" alt="思い出1" />
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop" alt="思い出2" />
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=600&h=400&fit=crop" alt="思い出3" />
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600&h=400&fit=crop" alt="思い出4" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- スケジュールセクション -->
+    <section id="schedule" class="schedule-section">
+        <div class="container">
+            <h2 class="section-title">Schedule</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">9:50</div>
+                    <div class="timeline-content">
+                        <h4>Meeting time</h4>
+                        <p>明治神宮神楽殿にお集まりください<br>At the Kaguraden House, Meiji Shrine</p>
+                        <span class="timeline-note">お時間に余裕をもってお越しください<br>We kindly ask that you arrive on time. Late arrivals may not be admitted to the ceremony.</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">10:40</div>
+                    <div class="timeline-content">
+                        <h4>Traditional Wedding Ceremony</h4>
+                        <p>後段のご案内事項も併せてご確認ください<br>To help you prepare for the day, please review the notes below.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">12:30</div>
+                    <div class="timeline-content">
+                        <h4>Reception</h4>
+                        <p>挙式後 専用バスにて明治記念館までご案内申し上げます<br>After the ceremony, we will provide a private bus to take you to the party venue.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">13:00</div>
+                    <div class="timeline-content">
+                        <h4>Wedding Party</h4>
+                        <p>ささやかではございますが 私どもより心ばかりの宴をご用意いたします<br>We hope you enjoy this intimate celebration with us.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">15:30</div>
+                    <div class="timeline-content">
+                        <h4>Wrap Up</h4>
+                        <p>披露宴終了</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">TBD</div>
+                    <div class="timeline-content">
+                        <h4>After Party</h4>
+                        <p>TBD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 会場案内セクション -->
+    <section id="venue" class="venue-section">
+        <div class="container">
+            <h2 class="section-title">Wedding Venues</h2>
+            <div class="venue-info">
+                <div class="venue-card ceremony">
+                    <h3>挙式会場 Wedding Ceremony</h3>
+                    <h4>明治神宮 Meiji Shrine</h4>
+                    <p class="venue-address">〒151-8557 東京都渋谷区代々木神園町1-1</p>
+                </div>
+                <div class="venue-card reception">
+                    <h3>披露宴会場 Wedding Party</h3>
+                    <h4>明治記念館 Meiji Memorial Hall</h4>
+                    <p class="venue-address">〒107-8507 東京都港区元赤阪2-2-23</p>
+                </div>
+            </div>
+            
+            <!-- 地図セクション -->
+            <div class="map-section">
+                <h3>Access</h3>
+                <div class="map-container">
+                    <div id="map" class="map-embed">
+                        <!-- Google Maps埋め込み -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8280845847!2d139.69953731525394!3d35.67614598019441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb2eb3108d1%3A0x302061c209f2b8dd!2z5piO5rK755We5a6u!5e0!3m2!1sja!2sjp!4v1642000000000!5m2!1sja!2sjp"
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="route-buttons">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=明治神宮神楽殿" target="_blank" class="route-btn">
+                            <i class="fas fa-route"></i>
+                            Route search
+                        </a>
+                        <a href="https://www.google.com/maps/place/明治神宮/@35.6761456,139.6995373,17z" target="_blank" class="route-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Opne a map
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 詳細・注意事項セクション -->
+    <section id="details" class="details-section">
+        <div class="container">
+            <h2 class="section-title">Notes</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <h3><i class="fas fa-clock"></i> Time</h3>
+                    <ul>
+                        <li>集合時間は<strong>9時50分厳守</strong>でお願いいたします</li>
+                        <li>挙式は定刻通り開始いたします</li>
+                        <li>The ceremony will begin promptly, so we kindly ask that you arrive on time, as <strong>late arrivals may not be admitted</strong>.</li>
+                    </ul>
+                </div>
+                <div class="detail-card">
+                    <h3><i class="fas fa-tshirt"></i> Dress code</h3>
+                    <ul>
+                        <li>神前式のため カジュアルな服装でのご参列はご遠慮ください</li>
+                        <li>また 添付の「ルールとマナー」もご一読ください</li>
+                        <li>As this is a Shinto ceremony, we kindly request that guests avoid casual clothing. We would appreciate it if you could also <strong>review the "Manners and Rules"</strong> for Shrine Wedding Ceremony as follows.</li>
+                    </ul>
+                </div>
+                <div class="detail-card">
+                    <h3><i class="fas fa-camera"></i> Photo shooting</h3>
+                    <ul>
+                        <li>挙式中の撮影については事前にご案内差し上げる方以外 ご遠慮ください</li>
+                        <li>それ以外のタイミングでは自由に撮影いただけます</li>
+                        <li>Photoshooting during the ceremony is permitted to those who have received prior notice and permission. We kindly ask all other guests to refrain.</li>
+                    </ul>
+                </div>
+                <div class="detail-card">
+                    <h3><i class="fas fa-car"></i> Transportaion</h3>
+                    <ul>
+                        <li>公共交通機関をご利用ください</li>
+                        <li>JR原宿駅・明治神宮前駅より徒歩</li>
+                        <li>We encourage guests to use public transportation.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- PDF資料ダウンロード -->
+            <div class="documents-section">
+                <h3>Reference materials</h3>
+                <div class="document-links">
+                     <a href="documents/manners-and-rules.pdf" class="document-link" target="_blank">
+                        <i class="fas fa-file-pdf"></i>
+                        Manners and Rules（PDF）
+                    </a>
+                    <a href="documents/ceremony-flow.pdf" class="document-link" target="_blank">
+                        <i class="fas fa-file-pdf"></i>
+                        式次第 Ceremony flow（PDF）
+                    </a>
+                    <a href="documents/our-vows.pdf" class="document-link" target="_blank">
+                        <i class="fas fa-file-pdf"></i>
+                        Our Voews in English（PDF）
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 出欠確認セクション -->
+    <section id="rsvp" class="rsvp-section">
+        <div class="container">
+            <h2 class="section-title">出欠確認</h2>
+            <div class="rsvp-content">
+                <p class="rsvp-description">
+                    下記フォームよりご回答ください <br> Please submit your response through the form below.
+                </p>
+                
+                <!-- Microsoft Forms埋め込み -->
+                <div class="forms-iframe-container">
+                   <iframe 
+                       width="640px" 
+                       height="480px" 
+                       src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__4EoHPRURUozQ1ZVSlNIMFZYQVYwRlBCSjNMODkwMy4u&embed=true" 
+                       frameborder="0" 
+                       marginwidth="0" 
+                       marginheight="0" 
+                       style="border: none; 
+                       max-width:100%; max-height:100vh" 
+                       allowfullscreen 
+                       webkitallowfullscreen 
+                       mozallowfullscreen 
+                       msallowfullscreen> 
+                   </iframe>
+                </div>
+            </div>
+        </div>
+                
+                <div class="contact-info">
+                    <br><h3>Contact</h3>
+                    <p>ご不明点ございましたら お気軽にお声がけください<br>If you have any inquiries, <br> please feel free to contact us.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="couple-names-footer">
+                    <span>Masashi & Dana</span>
+                </div>
+                <div class="wedding-date-footer">
+                    <span>2026.09.26</span>
+                </div>
+            </div>
+            <div class="footer-pattern"></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
